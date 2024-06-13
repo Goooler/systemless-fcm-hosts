@@ -1,24 +1,14 @@
-# Systemless Hosts
+# Systemless FCM Hosts
 
 ---
 ## Overview:
-- An efficient ad blocker, with no user interface
+- An efficient FCM hosts for Chinese users, packed from [fcm-hosts](https://github.com/entr0pia/fcm-hosts)
 - Support Magisk Live or Custom Recovery installations
-
----
-## Change Log:
-- 17.0-220116   
-  - hosts: 3.9.36 (0112)   
-  - code: 170   
 
 ---
 ## Credits:
 - [@topjohnwu](https://github.com/topjohnwu) / Magisk - Magisk Module Template
-- [@StevenBlack](https://github.com/StevenBlack) / Base hosts sources
+- [@entr0pia](https://github.com/entr0pia) / Base hosts sources
 - [@JumbomanXDA](https://github.com/JumbomanXDA) / Custom installation script
+- [@gloeyisk](https://github.com/gloeyisk) / The upstream maintainer
 
----
-## Extras:
-- Donations: [PayPal](https://paypal.me/gloeyisk) - [LiberaPay](https://liberapay.com/gloeyisk)
-- Mirror Links: [Telegram](https://t.me/gldppc) - [Index](https://kutt.it/Wt3rr4)
-- Source Code: [GitHub](https://github.com/gloeyisk/systemless-hosts)
