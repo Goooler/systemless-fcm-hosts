@@ -1,0 +1,19 @@
+.gradle
+build
+
+*.csv
+*.xls
+*.xlsx
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
