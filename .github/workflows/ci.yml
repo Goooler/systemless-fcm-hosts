@@ -1,9 +1,6 @@
 name: CI
 
 on:
-  push:
-    branches:
-      - trunk
   workflow_dispatch:
 
 jobs:
