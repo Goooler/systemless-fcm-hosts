@@ -14,9 +14,9 @@ jobs:
         run: zip -r systemless-fcm-hosts.zip . -x "*.git*"
       - name: Generate release name with current date
         run: echo "RELEASE_NAME=$(date +'%Y%m%d')" >> $GITHUB_ENV
-      - name: Delete release if exist then create release
+      - name: Delete the release if exists then create a new one
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release view ${{ env.RELEASE_NAME }} && gh release delete ${{ env.RELEASE_NAME }} -y --cleanup-tag
-          gh release create ${{ env.RELEASE_NAME }} systemless-fcm-hosts.zip -t ${{ env.RELEASE_NAME }} --generate-notes
+          gh release create ${{ env.RELEASE_NAME }} --generate-notes systemless-fcm-hosts.zip
