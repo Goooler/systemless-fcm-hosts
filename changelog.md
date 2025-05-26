@@ -1,8 +1,11 @@
-## Change Log:
-- 17.2   
-hosts: Update source to 3.14.104 (unified, fakenews, gambling, porn)   
+# Change Log
 
-- 17.1   
-hosts: Update source to 3.14.102 (unified, fakenews, gambling, porn)   
-module: Improve root implementations (Support Magisk / KernelSU / APatch)   
-module: Drop support for recovery installation    
+## [20250526](https://github.com/Goooler/systemless-fcm-hosts/releases/tag/20250526) - 2025-05-26
+
+**Added**
+
+- module: Improve root implementations (Support Magisk / KernelSU / APatch)
+
+**Removed**
+
+- module: Drop support for recovery installation

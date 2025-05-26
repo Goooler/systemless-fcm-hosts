@@ -1,6 +1,6 @@
 {
-    "version": "17.2",
-    "versionCode": 172,
-    "zipUrl": "https://github.com/gloeyisk/systemless-hosts/releases/download/17.2/hosts_17.2.zip",
-    "changelog": "https://raw.githubusercontent.com/gloeyisk/systemless-hosts/master/changelog.md"
+  "version": "17.0.20250526",
+  "versionCode": 20250526,
+  "zipUrl": "https://github.com/Goooler/systemless-fcm-hosts/releases/download/20250526/systemless-fcm-hosts.zip",
+  "changelog": "https://raw.githubusercontent.com/Goooler/systemless-fcm-hosts/trunk/changelog.md"
 }
