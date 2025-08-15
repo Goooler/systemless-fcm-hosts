@@ -9,7 +9,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Pack the project
         run: zip -r systemless-fcm-hosts.zip . -x "*.git*"
       - name: Generate release name with current date
